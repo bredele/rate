@@ -1,7 +1,6 @@
 
 /**
  * Change data channel speed limitation.
- *
  * 
  * Examples:
  *
