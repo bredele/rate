@@ -7,7 +7,7 @@
   "dependencies": {},
   "development": {
     "bredele/peer": "*",
-    "bredele/channel": "*",
+    "bredele/channel": "*"
   },
   "license": "MIT",
   "main": "index.js",
