@@ -2,7 +2,7 @@
   "name": "rate",
   "repo": "bredele/rate",
   "description": "peer plugin to change a data channel speed limitation.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
   "development": {
