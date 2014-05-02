@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rate</title>
+</head>
+<body>
+	<script src="../build/build.js"></script>
+	<script>
+	  var peer = require('peer');
+	  var channel = require('channel');
+	  var rate = require('rate');
+
+	  var master = peer();
+	  master.use(channel('datachannel'));
+	  master.codec(rate());
+	  master.create();
+	  master.offer();
+	  master.on('offer', function(offer) {
+	  	console.log(offer);
+	  });
+	</script>
+</body>
+</html>
